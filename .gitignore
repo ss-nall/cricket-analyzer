@@ -1,0 +1,20 @@
+# .gitignore (create at project root)
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.sqlite3
+.env
+.DS_Store
+.idea/
+.vscode/
+data/       # raw videos, processed npz -> do NOT push large media
+models/     # trained weights (optional: push small models only)
+*.h5
+*.keras
+*.mp4
+*.mov
+*.avi
+*.npz
+*.pkl
